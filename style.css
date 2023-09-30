@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Futura';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/******************************************************************        NAVBAR       *********************************************************************/
+
+nav{
+    height: 15vh;
+    /* background: #000; */
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+nav svg{
+   margin-top: 2.5vh;
+   width: 9vw;
+}
+
+.nav-part-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    /* gap: 6vw; */
+}
+
+.nav-part-2 a{
+    text-decoration: none;
+    margin-right: 4vw;
+}
+
+.nav-2 i{
+    margin-right: 4vw;
+}
+
+.nav-1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.nav-2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.page-1{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.page-1-text{
+    margin-top: 7vh;
+}
+
+.page-1-text h1{
+   font-size: 16.5vw;
+   text-align: center;
+   /* line-height: 25vh; */
+   letter-spacing: -0.9vw;
+  
+}
+
+.text{
+    line-height: 12.4vh;
+}
+
+
+
+
